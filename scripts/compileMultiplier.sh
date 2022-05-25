@@ -26,7 +26,7 @@ snarkjs r1cs print Multiplier/Multiplier.r1cs Multiplier/Multiplier.sym
 # Witness: all the signals that match the constraints of the circuit,
 # calculated before the proof is generated.
 echo "Generating witness"
-snarkjs wtns calculate Multiplier/Multiplier_js/Multiplier.wasm inputs/multiplier.json witness.wtns
+snarkjs wtns calculate Multiplier/Multiplier_js/Multiplier.wasm inputs/multiplier.json Multiplier/witness.wtns
 
 echo "Setup using Groth16..."
 snarkjs groth16 setup Multiplier/Multiplier.r1cs powersOfTau28_hez_final_10.ptau Multiplier/circuit_0000.zkey
