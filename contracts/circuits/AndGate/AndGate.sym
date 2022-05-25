@@ -1,0 +1,10 @@
+1,1,2,main.out
+2,2,2,main.in1
+3,3,2,main.in2
+4,-1,1,main.binCheck[0].out
+5,-1,1,main.binCheck[0].in
+6,-1,1,main.binCheck[1].out
+7,-1,1,main.binCheck[1].in
+8,-1,0,main.mult.out
+9,-1,0,main.mult.a
+10,-1,0,main.mult.b
